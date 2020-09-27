@@ -7,9 +7,9 @@ package model;
 public class Vak {
     private String naam;
     private int punten;
-    private int cesuur;
+    private double cesuur;
 
-    public Vak(String naam, int punten, int cesuur) {
+    public Vak(String naam, int punten, double cesuur) {
         this.naam = naam;
         this.punten = punten;
         this.cesuur = cesuur;
@@ -23,7 +23,7 @@ public class Vak {
         return punten;
     }
 
-    public int getCesuur() {
+    public double getCesuur() {
         return cesuur;
     }
 }
